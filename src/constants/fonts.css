@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #0c000e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #242424;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #ededf9;
+}
