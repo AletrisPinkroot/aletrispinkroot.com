@@ -18,7 +18,7 @@ type LinkProps = {
 
 const LinkStyle: any = styled.a`
 	font-size: ${v.pSize};
-	font-family: ${v.font};
+	font-family: ${v.hFont};
 	color: ${v.white};
 	transition: color 0.1s ease-in-out;
 
@@ -38,6 +38,11 @@ const LinkStyle: any = styled.a`
 			}
 			return css`
 				margin-left: 2em;
+			`;
+		} else {
+			return css`
+				font-family: Allison, cursive;
+				font-size: 3rem;
 			`;
 		}
 	}}

@@ -10,17 +10,18 @@ type AboutProps = {
 
 const Subheading = styled.h2`
 	color: ${v.white};
-	font-family: ${v.font};
+	font-family: Allison, cursive;
 	text-align: center;
-	font-size: ${v.h2Size};
+	font-size: 4rem;
+	line-height: 1rem;
 	font-weight: normal;
 	padding: 1em;
 `;
 
 const Bio = styled.p`
 	color: ${v.white};
-	font-family: ${v.font};
-	font-size: ${v.pSize};
+	font-family: ${v.pFont};
+	font-size: 1.5rem;
 	margin: 0 max(10vw, 5em) 2em;
 	line-height: 1.5;
 `;

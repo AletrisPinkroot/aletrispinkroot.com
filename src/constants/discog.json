@@ -2,7 +2,7 @@
 	{
 		"name": "unrequited",
 		"releaseDate": "2021/05/07",
-		"catalogNumber": "AP0003",
+		"catalogNumber": "AP0002",
 		"artwork": "https://f4.bcbits.com/img/a3678466609_10.jpg",
 		"tracklist": [
 			{
@@ -34,32 +34,12 @@
 	{
 		"name": "Whycantshebeme?",
 		"releaseDate": "2020/11/20",
-		"catalogNumber": "AP0002",
+		"catalogNumber": "AP0001",
 		"artwork": "https://f4.bcbits.com/img/a3618537370_10.jpg",
 		"tracklist": [
 			{
 				"trackNo": 1,
 				"trackName": "Whycantshebeme?"
-			}
-		]
-	},
-	{
-		"name": "On Your Side",
-		"releaseDate": "2020/12/11",
-		"catalogNumber": "AP0001",
-		"artwork": "https://f4.bcbits.com/img/a1896486936_10.jpg",
-		"tracklist": [
-			{
-				"trackName": "On Your Side",
-				"trackNo": 1
-			},
-			{
-				"trackName": "On Your Side (Stripped)",
-				"trackNo": 2
-			},
-			{
-				"trackName": "On Your Side (Acoustic)",
-				"trackNo": 3
 			}
 		]
 	}

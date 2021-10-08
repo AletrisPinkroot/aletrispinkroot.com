@@ -30,7 +30,7 @@ const ReleaseInfo = styled.div`
 	width: 60vw;
 
 	color: ${v.white};
-	font-family: ${v.font};
+	font-family: ${v.hFont};
 	font-size: ${v.pSize};
 	font-weight: normal;
 	line-height: 1;
@@ -65,6 +65,7 @@ const ReleaseInfo = styled.div`
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
+			font-family: ${v.pFont};
 			text-align: left;
 			font-size: calc(${v.pSize});
 		}

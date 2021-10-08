@@ -11,11 +11,11 @@ type SplashProps = {
 };
 
 const SplashText = styled.a`
-	font-family: ${v.font};
+	font-family: ${v.hFont};
 	font-size: ${v.h1Size};
 	text-decoration: none;
 	color: ${v.white};
-	position: relative;
+	position: absolute;
 	z-index: 1;
 	text-align: center;
 
