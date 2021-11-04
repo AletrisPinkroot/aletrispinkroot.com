@@ -52,7 +52,10 @@ class index extends React.Component {
 						property='og:description'
 						content={`The official website for Aletris Pinkroot, an Australian alternative pop artist.`}
 					/>
-					<meta property='og:image' content={me} />
+					<meta
+						property='og:image'
+						content={'https://aletrispinkroot.com' + me}
+					/>
 					{/* <!-- Twitter --> */}
 					<meta
 						property='twitter:card'
@@ -70,7 +73,9 @@ class index extends React.Component {
 						property='twitter:description'
 						content={`The official website for Aletris Pinkroot, an Australian alternative pop artist.`}
 					/>
-					<meta property='twitter:image' content={me}></meta>
+					<meta
+						property='twitter:image'
+						content={'https://aletrispinkroot.com' + me}></meta>
 				</Helmet>
 				<main style={{ margin: 0, padding: 0 }}>
 					<Navbar />
