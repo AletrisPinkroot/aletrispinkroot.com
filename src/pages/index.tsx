@@ -10,17 +10,19 @@ import Discography from '../components/Discography';
 import { Helmet } from 'react-helmet';
 import discog from '../constants/discog.json';
 import Footer from '../components/Footer';
+import favicon from '../images/favicon.png';
+import me from '../images/me.jpg';
 
 class index extends React.Component {
 	render() {
 		return (
 			<>
-				<Helmet>
+				<Helmet defer>
 					<title>Aletris Pinkroot</title>
 					<meta name='title' content='Aletris Pinkroot' />
 					<meta
 						name='description'
-						content="The official website for Aletris Pinkroot, an Australian alternative pop artist. His debut album, 'idltwyttma', is coming soon."
+						content='The official website for Aletris Pinkroot, an Australian alternative pop artist.'
 					/>
 					<meta
 						name='keywords'
@@ -31,8 +33,44 @@ class index extends React.Component {
 						http-equiv='Content-Type'
 						content='text/html; charset=utf-8'
 					/>
+					<link
+						rel='icon'
+						type='image/png'
+						href={favicon}
+						sizes='16x16'
+					/>
 					<meta name='language' content='English' />
 					<meta name='revisit-after' content='50 days' />
+					{/*<!-- Open Graph / Facebook -->*/}
+					<meta property='og:type' content='website' />
+					<meta
+						property='og:url'
+						content={`https://aletrispinkroot.com`}
+					/>
+					<meta property='og:title' content={'Aletris Pinkroot'} />
+					<meta
+						property='og:description'
+						content={`The official website for Aletris Pinkroot, an Australian alternative pop artist.`}
+					/>
+					<meta property='og:image' content={me} />
+					{/* <!-- Twitter --> */}
+					<meta
+						property='twitter:card'
+						content='summary_large_image'
+					/>
+					<meta
+						property='twitter:url'
+						content={`https://aletrispinkroot.com`}
+					/>
+					<meta
+						property='twitter:title'
+						content={'Aletris Pinkroot'}
+					/>
+					<meta
+						property='twitter:description'
+						content={`The official website for Aletris Pinkroot, an Australian alternative pop artist.`}
+					/>
+					<meta property='twitter:image' content={me}></meta>
 				</Helmet>
 				<main style={{ margin: 0, padding: 0 }}>
 					<Navbar />

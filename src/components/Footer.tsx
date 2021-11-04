@@ -15,14 +15,6 @@ const FooterLink = styled.a`
 		-webkit-text-stroke: 1px ${v.red};
 	}
 `;
-const Info = styled.div`
-	color: ${v.white};
-	font-family: ${v.pFont};
-	font-size: 1.5rem;
-	line-height: 1;
-	text-decoration: none;
-	text-align: right;
-`;
 
 export default class Footer extends React.Component {
 	render() {
@@ -48,13 +40,6 @@ export default class Footer extends React.Component {
 						instagram
 					</FooterLink>
 				</div>
-				<Info>
-					<p>
-						aletris pinkroot is corey francis <br />
-						music written by corey francis and edward joseph <br />
-						website developed by corey francis
-					</p>
-				</Info>
 			</div>
 		);
 	}
