@@ -84,7 +84,6 @@ const Link = (props: LinkProps) => {
 
 	return (
 		<LinkStyle
-			class='navlink'
 			href={props.href}
 			onClick={updateActive}
 			isActive={props.active === props.i}>
