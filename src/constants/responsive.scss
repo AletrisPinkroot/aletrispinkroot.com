@@ -1,0 +1,91 @@
+@media screen and (max-width: 1600px) {
+	#rInfo {
+		font-size: 1rem;
+		margin-top: 1em;
+		p {
+			font-size: 1.4rem;
+			-webkit-text-stroke: 0px;
+		}
+		h1 {
+			font-size: 2rem;
+		}
+	}
+	* {
+		-webkit-text-stroke: 0px;
+	}
+	.socialLinks a {
+		-webkit-text-stroke: 0px;
+		font-size: 1rem;
+	}
+	.biotext p {
+		font-size: 1.1rem;
+	}
+}
+@media screen and (max-width: 1000px) {
+	#rInfo {
+		font-size: 1rem;
+		p {
+			font-size: 1.2rem;
+			-webkit-text-stroke: 0px;
+		}
+	}
+	* {
+		-webkit-text-stroke: 0px;
+	}
+	.socialLinks a {
+		-webkit-text-stroke: 0px;
+		font-size: 1rem;
+	}
+	.biotext p {
+		font-size: 1rem;
+	}
+}
+@media screen and (max-width: 800px) {
+	#rInfo {
+		font-size: 1rem;
+		p {
+			font-size: 0.8rem;
+			-webkit-text-stroke: 0px;
+		}
+	}
+	* {
+		-webkit-text-stroke: 0px;
+	}
+	.socialLinks a {
+		-webkit-text-stroke: 0px;
+		font-size: 0.8rem;
+	}
+	.biotext p {
+		font-size: 1rem;
+	}
+	#aboutsection {
+		flex-direction: column;
+	}
+	#biomage {
+		height: 50%;
+		width: 50%;
+	}
+	.container {
+		flex-direction: column;
+	}
+
+	#splash {
+		font-size: 2rem;
+		span {
+			font-size: 1rem;
+		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.biotext p {
+		margin: 1em;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#biomage {
+		width: auto;
+		height: 100%;
+	}
+}

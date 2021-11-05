@@ -46,6 +46,32 @@ const LinkStyle: any = styled.a`
 			`;
 		}
 	}}
+
+	@media screen and (max-width: 800px) {
+		font-size: 1.5rem;
+		margin-left: 0.5em;
+		${(props: LinkProps) => {
+			if (props.logo) {
+				return css`
+					font-size: 2rem;
+				`;
+			}
+		}}
+	}
+		}}
+	}
+	@media screen and (max-width: 500px) {
+		font-size: 1rem;
+		${(props: LinkProps) => {
+			if (props.logo) {
+				return css`
+					font-size: 1.5rem;
+				`;
+			}
+		}}
+	}
+		}}
+	}
 `;
 
 const Link = (props: LinkProps) => {
@@ -58,6 +84,7 @@ const Link = (props: LinkProps) => {
 
 	return (
 		<LinkStyle
+			class='navlink'
 			href={props.href}
 			onClick={updateActive}
 			isActive={props.active === props.i}>

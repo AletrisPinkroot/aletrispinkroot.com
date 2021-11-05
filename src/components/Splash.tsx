@@ -83,7 +83,7 @@ export default class Splash extends React.Component<SplashProps> {
 						}}
 					/>
 				</div>
-				<SplashText href={this.props.link}>
+				<SplashText id='splash' href={this.props.link}>
 					{this.props.text}
 					<br />
 					<span>{this.props.subtext}</span>

@@ -30,6 +30,7 @@ export default class About extends React.Component<AboutProps, {}> {
 	render() {
 		return (
 			<div
+				id='aboutsection'
 				style={{
 					backgroundColor: v.black,
 					display: 'flex',
@@ -47,18 +48,18 @@ export default class About extends React.Component<AboutProps, {}> {
 					}}>
 					{' '}
 				</a>
-				<div className='text'>
+				<div className='text biotext'>
 					<Subheading className='subheading'>
 						{this.props.subheading.toLowerCase()}
 					</Subheading>
 					<Bio>{this.props.bio}</Bio>
 				</div>
-				<div className='image' style={{ maxWidth: '50vw' }}>
+				<div className='image' style={{}}>
 					<StaticImage
+						id='biomage'
 						src={'../images/me.jpg'}
 						alt='Aletris Pinkroot Standing'
 						placeholder='blurred'
-						style={{ width: '100%' }}
 					/>
 				</div>
 			</div>

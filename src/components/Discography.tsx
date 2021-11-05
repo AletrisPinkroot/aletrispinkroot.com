@@ -5,7 +5,7 @@ import v from '../constants/rules';
 
 const ReleaseGrid = styled.div`
 	display: grid;
-	max-width: 40vw;
+	flex: 1;
 	gap: 0;
 	grid-template-columns: repeat(3, 1fr);
 	justify-content: space-between;
@@ -27,7 +27,7 @@ const ReleaseInfo = styled.div`
 	flex-direction: column;
 	justify-content: center;
 
-	width: 60vw;
+	flex: 1.2;
 
 	color: ${v.white};
 	font-family: ${v.hFont};
@@ -143,7 +143,7 @@ export default class Discography extends React.Component<
 						backgroundColor: v.black,
 					}}>
 					<ReleaseGrid>{this.artworks}</ReleaseGrid>
-					<ReleaseInfo>
+					<ReleaseInfo id='rInfo'>
 						{this.discog.find((release) => {
 							return release.key == this.state.release;
 						})}

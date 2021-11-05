@@ -12,6 +12,7 @@ import discog from '../constants/discog.json';
 import Footer from '../components/Footer';
 import favicon from '../images/favicon.png';
 import me from '../images/me.jpg';
+import '../constants/responsive.scss';
 
 class index extends React.Component {
 	render() {

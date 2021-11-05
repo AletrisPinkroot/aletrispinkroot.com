@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		siteUrl: 'https://www.aletrispinkroot.com',
-		title: 'aletrispinkroot.com',
+		title: 'Aletris Pinkroot',
 	},
 	plugins: [
 		{
@@ -22,6 +22,14 @@ module.exports = {
 				},
 			},
 		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				host: 'https://www.aletrispinkroot.com',
+				policy: [{ userAgent: '*', allow: '/' }],
+			},
+		},
+		'gatsby-plugin-sass',
 		'gatsby-plugin-styled-components',
 		'gatsby-plugin-react-helmet',
 		`gatsby-plugin-image`,
