@@ -19,8 +19,11 @@ class index extends React.Component {
 		return (
 			<>
 				<Helmet defer>
-					<title>Aletris Pinkroot</title>
-					<meta name='title' content='Aletris Pinkroot' />
+					<title>Aletris Pinkroot | Official Website</title>
+					<meta
+						name='title'
+						content='Aletris Pinkroot | Official Website'
+					/>
 					<meta
 						name='description'
 						content='The official website for Aletris Pinkroot, an Australian alternative pop artist.'
