@@ -12,6 +12,7 @@ import discog from '../constants/discog.json';
 import Footer from '../components/Footer';
 import favicon from '../images/favicon.png';
 import me from '../images/me.jpg';
+import v from '../constants/rules';
 import '../constants/responsive.scss';
 
 class index extends React.Component {
@@ -28,6 +29,7 @@ class index extends React.Component {
 						name='description'
 						content='The official website for Aletris Pinkroot, an Australian alternative pop artist.'
 					/>
+					<meta name='theme-color' content={v.black} />
 					<meta
 						name='keywords'
 						content='pop, music, art, artist, alternative, electronic, country, indie, acoustic'
